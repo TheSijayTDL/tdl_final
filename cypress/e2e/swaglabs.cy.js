@@ -116,7 +116,7 @@ describe('(Part 1) Swag Labs', () => {
     ItemsPage.itemsCartBadge.should("not.have.text");
   });
 
-  it.only("Buy a T-shirt", () => { 
+  it("Buy a T-shirt", () => { 
     LoginPage.logInName.type("standard_user");
     LoginPage.logInPassword.type("secret_sauce");
     LoginPage.logInSubmit.click();  
